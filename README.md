@@ -10,7 +10,7 @@
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
-- 📄 Know about my experiences [Here](https://drive.google.com/file/d/1ZgoyVoM812R9nKLT3YzspyGVEWQW8mqk/view?usp=sharing)
+- 📄 Know about my experiences [Here](https://drive.google.com/file/d/1ZgoyVoM812R9nKLT3YzspyGVEWQW8mqk/view?usp=sharing) (Resume)
 
 - ⚡ Fun fact **I like a large variety of music genres**
 
