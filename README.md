@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Justine Rome M. Guillermo</h1>
+<h1 align="center">Hi 👋🏾, I'm Justine Rome M. Guillermo</h1>
 <h3 align="center">A passionate Web developer from The Philippines.</h3>
 <img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F11jacPItBsJDLa%2Fgiphy.gif&f=1&nofb=1">
 
