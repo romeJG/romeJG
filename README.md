@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Justine Rome M. Guillermo</h1>
 <h3 align="center">A passionate Web developer from The Philippines.</h3>
+<img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F24.media.tumblr.com%2F03c9505cfe9473d13619cd18a98d90e5%2Ftumblr_n3xetmlDS41qav3uso1_500.gif&f=1&nofb=1">
 
 - 🔭 I’m currently working on [Job Portal](https://github.com/mapandan/Job-Portal)
 
