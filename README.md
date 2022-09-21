@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
-- ⚡ Fun fact **I am**
+- ⚡ Fun fact **I like a large variety of music genres**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
