@@ -28,5 +28,3 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en" alt="romejg" /></p>
 
-
-<a href=#><img src="contributions.svg"></a>
