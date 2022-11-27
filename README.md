@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **PHP, AJAX ,and Codeigniter**
 
-- 💬 Ask me about **Java, Python, PHP**
+- 💬 Ask me about **PHP, Python, Java**
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
