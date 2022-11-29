@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **PHP, and [Laravel](https://laravel.com)**
 
-- 💬 Ask me about **PHP, Python, Java**
+- 💬 Ask me about **PHP**
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
