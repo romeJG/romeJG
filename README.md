@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on [Graduation Papers]()
 
-- 🌱 I’m currently learning **PHP, AJAX ,and Codeigniter**
+- 🌱 I’m currently learning **PHP,and [Laravel](https://laravel.com)**
 
 - 💬 Ask me about **PHP, Python, Java**
 
