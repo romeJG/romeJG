@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **PHP, and [Laravel](https://laravel.com)**
 
-- 💬 Ask me about **PHP**
+- 💬 Ask me about **PHP, and [Code Igniter](https://codeigniter.com)**
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
