@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋🏾, I'm Justine Rome M. Guillermo</h1>
+<h1 align="center">Hi 👋🏾, I'm Rome</h1>
 <h3 align="center">A Web developer from The Philippines.</h3>
 <img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2Febcda1ae8654d61ccc43be1552c02216%2Ftenor.gif%3Fitemid%3D10974154&f=1&nofb=1">
 
@@ -10,7 +10,7 @@
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
-- 📄 Know about my experiences [Here](https://drive.google.com/file/d/1ZgoyVoM812R9nKLT3YzspyGVEWQW8mqk/view?usp=sharing) (Resume)
+- 📄 Know about my experiences [Here](https://drive.google.com/) (Resume)
 
 - ⚡ Fun fact **I like a large variety of music genres**
 
