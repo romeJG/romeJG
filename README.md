@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on [Graduation Stuff](https://www.feutech.edu.ph)
 
-- 🌱 I’m currently learning **[PHP](https://www.php.net/), [Laravel](https://laravel.com), and [Linux](https://www.linux.org/)**
+- 🌱 I’m currently learning **[Linux](https://www.linux.org/)**
 
 - 💬 Ask me about **PHP, and [Code Igniter](https://codeigniter.com)**
 
