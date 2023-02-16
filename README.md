@@ -2,7 +2,7 @@
 <h3 align="center">A Web developer from The Philippines.</h3>
 <img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2Febcda1ae8654d61ccc43be1552c02216%2Ftenor.gif%3Fitemid%3D10974154&f=1&nofb=1">
 
-- 🔭 I’m currently working on [Ccompany Training]()
+- 🔭 I’m currently working on [Company Training]()
 
 - 🌱 I’m currently learning **[Linux](https://www.linux.org/) and [French](https://www.duolingo.com)**
 
