@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on [Ccompany Training]()
 
-- 🌱 I’m currently learning **[Linux](https://www.linux.org/)[French](https://www.duolingo.com)**
+- 🌱 I’m currently learning **[Linux](https://www.linux.org/) and [French](https://www.duolingo.com)**
 
 - 💬 Ask me about **PHP, and [Code Igniter](https://codeigniter.com)**
 
