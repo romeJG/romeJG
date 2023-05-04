@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **[VisVis Reservation system]()**
 
-- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)**
+- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/), [React JS](https://react.dev/)**
 
 - 💬 Ask me about **PHP, and [Code Igniter](https://codeigniter.com)**
 
