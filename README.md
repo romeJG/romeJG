@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **Learning [React JS](https://react.dev/)**
 
-- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)** and **[React JS](https://react.dev/)**
+- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)**,**[AWS](https://aws.amazon.com/)** and **[React JS](https://react.dev/)**
 
 - 💬 Ask me about **PHP, and [Code Igniter](https://codeigniter.com)**
 
