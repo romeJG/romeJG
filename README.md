@@ -10,8 +10,6 @@
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
-- 📄 Know about my experiences **[Here](https://github.com/romeJG?tab=repositories)**
-
 - ⚡ Fun fact **I like a large variety of music genres**
 
 <h3 align="left">Connect with me:</h3>
