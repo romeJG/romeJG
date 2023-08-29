@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **Finding a job and learning the things below**
 
-- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)**, **[Laravel](external.ink?to=https://laravel.com/)**
+- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)**, **[Laravel](external.ink?to=laravel.com)**
 
 - 💬 Ask me about **PHP, and [Code Igniter](https://codeigniter.com)**
 
