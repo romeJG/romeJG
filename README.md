@@ -4,9 +4,9 @@
 
 - 🔭 I’m currently working on **Finding a job and learning the things below**
 
-- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)**, **[Laravel](https://laravel.com/)**
+- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)**, and **[Laravel](https://laravel.com/)**
 
-- 💬 Ask me about **PHP, and [Code Igniter](https://codeigniter.com)**
+- 💬 Ask me about **[PHP](https://php.org), and [Code Igniter](https://codeigniter.com)**
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
