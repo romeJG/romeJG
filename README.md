@@ -16,7 +16,7 @@
 <p align="left">
 <a href="https://fb.com/r0me.jg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="r0me.jg" height="30" width="40" /></a>
 <a href="https://instagram.com/rome.gj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rome.gj" height="30" width="40" /></a>
-<a href="https://discord.gg/𝙧 𝙤 𝙢 𝙚#5383" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="𝙧 𝙤 𝙢 𝙚#5383" height="30" width="40" /></a>
+
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
