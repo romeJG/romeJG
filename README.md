@@ -1,10 +1,11 @@
 <h1 align="center">Hi 👋🏾, I'm Rome</h1>
 <h3 align="center">A Web developer from The Philippines.</h3>
+<p>Visit my website <a href="https://portfolio-romejg.rf.gd">click</a></p>
 <img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2Febcda1ae8654d61ccc43be1552c02216%2Ftenor.gif%3Fitemid%3D10974154&f=1&nofb=1">
 
 - 🔭 I’m currently working on **Finding a job and learning the things below**
 
-- 🌱 I’m currently learning **[Linux Manjaro](https://manjaro.org/)**, and **[Laravel](https://laravel.com/)**
+- 🌱 I’m currently learning **[Laravel](https://laravel.com/)** and **[Wordpress](https://wordpress.org)**
 
 - 💬 Ask me about **[PHP](https://php.org), and [Code Igniter](https://codeigniter.com)**
 
@@ -16,7 +17,7 @@
 <p align="left">
 <a href="https://fb.com/r0me.jg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="r0me.jg" height="30" width="40" /></a>
 <a href="https://instagram.com/rome.gj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rome.gj" height="30" width="40" /></a>
-
+  
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
