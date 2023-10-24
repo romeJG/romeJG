@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **My body and learning the things below**
 
-- 🌱 I’m currently learning **[Laravel](https://laravel.com/)** and **[Wordpress](https://wordpress.org)**
+- 🌱 I’m currently learning **[Laravel](https://laravel.com/)** with **[React](https://react.dev/)**
 
 - 💬 Ask me about **[PHP](https://php.org), and [Code Igniter](https://codeigniter.com)**
 
