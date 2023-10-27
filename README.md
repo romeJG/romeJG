@@ -105,7 +105,7 @@
       alt="bash"
       width="40"
       height="40"
-      style="filter: invert(.75);"
+      style="filter: invert(1);"
     />
   </a>
   <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
