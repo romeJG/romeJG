@@ -4,7 +4,7 @@
 
 - 🔗 Visit my **[website](https://portfolio-romejg.rf.gd)**
 
-- 🔭 I’m currently working on **My body and learning the things below**
+- 🔭 I’m currently working on **Improving my programming skills on the things below**
 
 - 🌱 I’m currently learning **[Laravel](https://laravel.com/)** with **[React](https://react.dev/)** and **[SocketIO](https://socket.io/)**
 
