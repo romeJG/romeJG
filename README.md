@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **[Laravel](https://laravel.com/)** with **[React](https://react.dev/)** and **[SocketIO](https://socket.io/)**
 
-- 💬 Ask me about **[PHP](https://php.org), and [Code Igniter](https://codeigniter.com)**
+- 💬 Ask me about **[PHP](https://php.org), [Laravel](https://laravel.com/), and [React](https://react.dev)**
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
