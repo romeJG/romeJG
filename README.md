@@ -4,7 +4,7 @@
 
 - 🔗 Visit my **[website](https://portfolio-romejg.rf.gd)**
 
-- 🔭 I’m currently working on **An Internal project for [MEC Networks](https://mec.ph/)**
+- 🔭 I’m currently working on **An Internal project for [MEC](https://mec.ph/)**
 
 - 🌱 I’m currently learning **[Laravel](https://laravel.com/)** with **[React](https://react.dev/)** and **[SocketIO](https://socket.io/)**
 
