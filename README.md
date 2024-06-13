@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **An Internal project for [MEC](https://mec.ph/)**
 
-- 🌱 I’m currently learning **[Laravel](https://laravel.com/)** with **[React](https://react.dev/)** and **[SocketIO](https://socket.io/)**
+- 🌱 I’m currently learning **[Rust 🦀](https://doc.rust-lang.org/stable/book/)***
 
 - 💬 Ask me about **[PHP](https://php.org), [Laravel](https://laravel.com/), and [React](https://react.dev)**
 
