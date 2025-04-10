@@ -1,14 +1,14 @@
 <h1 align="center">Hi 👋🏾, I'm Rome</h1>
-<h3 align="center">A Web developer from The Philippines.</h3>
-<img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2Febcda1ae8654d61ccc43be1552c02216%2Ftenor.gif%3Fitemid%3D10974154&f=1&nofb=1">
+<h3 align="center">A Full-Stack Engineer.</h3>
+<img align="right" alt="Coding" width="400" src="homer.gif">
 
 - 🔗 Visit my **[website](https://portfolio-romejg.rf.gd)**
 
-- 🔭 I’m currently working on **Improving my skills on the things below**
+- 🔭 I’m currently working on **An Internal project for [MEC](https://mec.ph/)**
 
-- 🌱 I’m currently learning **[Laravel](https://laravel.com/)** with **[React](https://react.dev/)** and **[SocketIO](https://socket.io/)**
+- 🌱 I’m currently learning **[Ethical Hacking](https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441)**
 
-- 💬 Ask me about **[PHP](https://php.org), and [Code Igniter](https://codeigniter.com)**
+- 💬 Ask me about **[PHP](https://php.org), [Laravel](https://laravel.com/), and [React](https://react.dev)**
 
 - 📫 How to reach me **justineguillermo00@gmail.com**
 
@@ -20,7 +20,6 @@
 <a href="https://instagram.com/rome.gj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rome.gj" height="30" width="40" /></a>
   
 </p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="https://www.php.net" target="_blank" rel="noreferrer">
@@ -157,7 +156,14 @@
       height="40"
     />
   </a>
+  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
+  </a> 
+  <a href="https://postman.com" target="_blank" rel="noreferrer"> 
+    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> 
+  </a>
 </p>
+
 
 
 
@@ -165,6 +171,8 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en&layout=compact" alt="romejg" /></p>
 
+![romejg's Streak](https://github-readme-streak-stats.herokuapp.com/?user=romejg&theme=highcontrast&hide_border=true)
+<!---
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en" alt="romejg" /></p>
-
-
+-->
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=romejg" alt="romejg" /></a> </p>
