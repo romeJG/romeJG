@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋🏾, I'm Rome</h1>
 <h3 align="center">A Full-Stack Engineer.</h3>
-<img align="right" alt="Coding" width="400" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2Febcda1ae8654d61ccc43be1552c02216%2Ftenor.gif%3Fitemid%3D10974154&f=1&nofb=1">
+<img align="right" alt="Coding" width="400" src="homer.gif">
 
 - 🔗 Visit my **[website](https://portfolio-romejg.rf.gd)**
 
