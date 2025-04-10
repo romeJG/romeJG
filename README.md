@@ -169,10 +169,10 @@
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="contributions.svg"></a>
 
+
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="contributions.svg"></a>
+
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en&layout=compact" alt="romejg" /></p>
 
-![romejg's Streak](https://github-readme-streak-stats.herokuapp.com/?user=romejg&theme=highcontrast&hide_border=true)
-<!---
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en" alt="romejg" /></p>
--->
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=romejg" alt="romejg" /></a> </p>
