@@ -165,12 +165,6 @@
 </p>
 
 
-
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="contributions.svg"></a>
-
-
-
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="contributions.svg"></a>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en&layout=compact" alt="romejg" /></p>
