@@ -167,6 +167,6 @@
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="snake.svg"></a>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=romejg&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&locale=en&layout=compact" alt="romejg" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en&layout=compact" alt="romejg" /></p>
 
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=romejg&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&locale=en" alt="romejg" /></p>
+<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=romejg&show_icons=true&theme=highcontrast&bg_color=0d1117&hide_border=true&locale=en" alt="romejg" /></p>
