@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on **An Internal project for [MEC](https://mec.ph/)**
 
-- 🌱 I’m currently learning **[Human Exploitation](https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441)**
+- 🌱 I’m currently learning **[Social Engineering](https://www.amazon.com/Social-Engineering-Art-Human-Hacking/dp/0470639539)**
 
 - 💬 Ask me about **[PHP](https://php.org), [Laravel](https://laravel.com/), and [React](https://react.dev)**
 
