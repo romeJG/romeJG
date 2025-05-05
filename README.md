@@ -160,7 +160,7 @@
       height="40"
     />
   </a>
-   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+   <a href="https://archlinux.org/" target="_blank" rel="noreferrer">
     <img
       src="https://static-00.iconduck.com/assets.00/archlinux-icon-2048x2048-q7549ths.png"
       alt="linux_arch"
@@ -168,7 +168,7 @@
       height="40"
     />
   </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+  <a href="https://www.microsoft.com/en-us/windows/get-windows-11" target="_blank" rel="noreferrer">
     <img
       src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/91d52475-1788-4638-a5aa-d1eefcde9419/dgh683s-3b410b34-33b9-4265-a776-72aeea824000.png"
       alt="windows"
