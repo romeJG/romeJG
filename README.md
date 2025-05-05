@@ -105,14 +105,6 @@
 
 <h3 align="left">Tools:</h3>
 <p align="left">
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
-      alt="linux"
-      width="40"
-      height="40"
-    />
-  </a>
   <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
     <img
       src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
@@ -157,6 +149,36 @@
     />
   </a>
 </p>
+
+<h3 align="left">OS:</h3>
+<p>
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+      alt="linux"
+      width="40"
+      height="40"
+    />
+  </a>
+   <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+    <img
+      src="https://static-00.iconduck.com/assets.00/archlinux-icon-2048x2048-q7549ths.png"
+      alt="linux_arch"
+      width="40"
+      height="40"
+    />
+  </a>
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+    <img
+      src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/91d52475-1788-4638-a5aa-d1eefcde9419/dgh683s-3b410b34-33b9-4265-a776-72aeea824000.png"
+      alt="windows"
+      width="40"
+      height="40"
+    />
+  </a>
+</p>
+
+
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="snake.svg"></a>
 
 <div>
