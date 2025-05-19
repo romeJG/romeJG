@@ -188,5 +188,21 @@
   <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&include_all_commits=true" alt="romejg" /></p>
   <p><img align="right" src="https://github-readme-stats.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&include_all_commits=true" alt="romejg" /></p>
 </div>
+<div>
+  <p>
+    <img
+      align="left"
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true"
+      alt="romejg"
+    />
+  </p>
+  <p>
+    <img
+      align="right"
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true"
+      alt="romejg"
+    />
+  </p>
+</div>
 
 <p><img align="right" src="https://github-profile-trophy.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=9" alt="romejg" /></p>
