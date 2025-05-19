@@ -185,10 +185,6 @@
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="snake.svg"></a>
 
 <div>
-  <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&include_all_commits=true" alt="romejg" /></p>
-  <p><img align="right" src="https://github-readme-stats.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&include_all_commits=true" alt="romejg" /></p>
-</div>
-<div>
   <p>
     <img
       align="left"
