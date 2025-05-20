@@ -188,7 +188,7 @@
   <p>
     <img
       align="left"
-      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&include_all_commits=true"
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
       alt="romejg"
     />
   </p>
