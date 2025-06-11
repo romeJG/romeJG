@@ -4,7 +4,7 @@
 
 -   🔗 Visit my **[website](https://portfolio-romejg.rf.gd)**
 
--   🔭 I’m currently working on **An Internal project for [MEC](https://mec.ph/)**
+-   🔭 I’m currently working on **A LMS for [MEC](https://mec.ph/)**
 
 -   🌱 I’m currently learning **[Social Engineering](https://www.amazon.com/Social-Engineering-Art-Human-Hacking/dp/0470639539)** and **[AI](https://huggingface.co/)**
 
