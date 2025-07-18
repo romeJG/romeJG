@@ -165,7 +165,7 @@
   </a>
    <a href="https://archlinux.org/" target="_blank" rel="noreferrer">
     <img
-      src="https://static-00.iconduck.com/assets.00/archlinux-icon-2048x2048-q7549ths.png"
+      src="https://archlinux.org/static/favicon.png"
       alt="linux_arch"
       width="40"
       height="40"
