@@ -171,6 +171,14 @@
       height="40"
     />
   </a>
+   <a href="https://ubuntu.com/" target="_blank" rel="noreferrer">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/16/Ubuntu_and_Ubuntu_Server_Icon.png"
+      alt="ubuntu"
+      width="40"
+      height="40"
+    />
+  </a>
   <a href="https://www.microsoft.com/en-us/windows/get-windows-11" target="_blank" rel="noreferrer">
     <img
       src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/91d52475-1788-4638-a5aa-d1eefcde9419/dgh683s-3b410b34-33b9-4265-a776-72aeea824000.png"
