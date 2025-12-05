@@ -212,6 +212,7 @@
       align="left"
       src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
       alt="romejg"
+       height="150"
     />
   </p>
   <p>
@@ -219,6 +220,7 @@
       align="right"
       src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
       alt="romejg"
+       height="150"
     />
   </p>
 </div>
