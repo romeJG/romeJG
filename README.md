@@ -6,13 +6,13 @@
 
 -   🔭 I’m currently working on **Updating my portfolio**
 
--   🌱 I’m currently learning **[Social Engineering](https://www.amazon.com/Social-Engineering-Art-Human-Hacking/dp/0470639539)** and **[AI](https://huggingface.co/)**
+-   🌱 I’m currently Reading **[Pro Git](https://git-scm.com/book/en/v2)** and Learning about **[AI](https://huggingface.co/)**
 
 -   💬 Ask me about **[PHP](https://php.org), [Laravel](https://laravel.com/), and [React](https://react.dev)**
 
 -   📫 How to reach me **justineguillermo00@gmail.com**
 
--   ⚡ Fun fact **I like a large variety of music genres**
+-   ⚡ Fun fact **I try to learn a thing or two everyday**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
