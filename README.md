@@ -218,7 +218,7 @@
   <p>
     <img
       align="right"
-      src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true&title=MultiLanguage,Commits,Repositories,PullRequest,Contributed,Issues,Experience,Reviews,Stars"
       alt="romejg"
        height="175"
     />
