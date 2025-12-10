@@ -212,7 +212,7 @@
       <img
         src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
         alt="romejg"
-        width="100%"
+        width="80%"
       />
     </td>
     <td width="50%" align="center">
