@@ -225,4 +225,4 @@
   </p>
 </div>
 
-<p><img align="right" src="https://github-profile-trophy.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=9" alt="romejg" /></p>
+<p><img align="right" src="https://github-trophies.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=9&" alt="romejg" /></p>
