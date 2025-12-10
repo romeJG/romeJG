@@ -225,4 +225,6 @@
   </p>
 </div>
 
-<p><img align="right" src="https://github-trophies.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=8&title=MultiLanguage,LongTimeUser,Commits,Repositories,Followers,Issues,Stars,PullRequest" alt="romejg" /></p>
+<p>
+  <img align="right" src="https://github-trophies.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=8&title=MultiLanguage,LongTimeUser,Commits,Repositories,Followers,Issues,Stars,PullRequest" alt="romejg" />
+</p>
