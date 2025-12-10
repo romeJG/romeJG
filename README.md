@@ -223,11 +223,9 @@
       />
     </td>
   </tr>
+  <td colSpan="2">
+      <img align="center" src="https://github-trophies.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=8&title=MultiLanguage,LongTimeUser,Commits,Repositories,Followers,Issues,Stars,PullRequest" alt="romejg" />
+  </td>
 </table>
 
 
-
-
-<p>
-  <img align="center" src="https://github-trophies.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=8&title=MultiLanguage,LongTimeUser,Commits,Repositories,Followers,Issues,Stars,PullRequest" alt="romejg" />
-</p>
