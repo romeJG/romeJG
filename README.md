@@ -206,26 +206,26 @@
   <img alt="Breakout Game" src="images/breakout-dark.svg" />
 </picture>
 
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
-        alt="romejg"
-        width="80%"
-      />
-    </td>
-    <td width="50%" align="center">
-      <img
-        src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
-        alt="romejg"
-        width="100%"
-      />
-    </td>
-  </tr>
-  <td colSpan="2">
+<div>
+  <p>
+    <img
+      align="left"
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
+      alt="romejg"
+       height="175"
+    />
+  </p>
+  <p>
+    <img
+      align="right"
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
+      alt="romejg"
+       height="175"
+    />
+  </p>
+</div>
+<p>
       <img align="center" src="https://github-trophies.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=8&title=MultiLanguage,LongTimeUser,Commits,Repositories,Followers,Issues,Stars,PullRequest" alt="romejg" />
-  </td>
-</table>
+</p>
 
 
