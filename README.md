@@ -195,48 +195,50 @@
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="snake.svg"></a>
 -->
 
-<div style="display: flex; align-items: stretch; gap: 10px; flex-wrap: wrap;">
-  <!-- Top Languages -->
-  <picture>
-    <!-- Dark mode -->
-    <source
-      srcset="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
-      media="(prefers-color-scheme: dark)"
-    />
-    <!-- Light mode -->
-    <img
-      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&hide_border=true&count_private=true&include_all_commits=true"
-      alt="Top Languages"
-      height="175"
-    />
-  </picture>
+<div style="text-align: center;">
 
   <!-- GitHub Stats -->
   <picture>
     <source
-      srcset="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
       media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
     />
     <img
       src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&hide_border=true&count_private=true&include_all_commits=true"
-      alt="GitHub Stats"
-      height="175"
+      height="124"
+      alt="GitHub stats"
     />
   </picture>
 
-  <!-- GitHub Streak -->
+  <!-- Top Languages -->
   <picture>
     <source
-      srcset="https://streak-stats.vercel.app/?user=romejg&theme=merko&hide_border=true"
       media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
+    />
+    <img
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&hide_border=true&count_private=true&include_all_commits=true"
+      height="124"
+      alt="Top languages"
+    />
+  </picture>
+
+  <!-- Streak Stats -->
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://streak-stats.vercel.app/?user=romejg&theme=merko&hide_border=true"
     />
     <img
       src="https://streak-stats.vercel.app/?user=romejg&hide_border=true"
-      alt="GitHub Streak"
-      height="175"
+      height="124"
+      alt="GitHub streak"
     />
   </picture>
+
+
 </div>
+
 
 
 
