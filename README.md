@@ -195,36 +195,51 @@
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="snake.svg"></a>
 -->
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="images/breakout-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="images/breakout-light.svg"
-  />
-  <img alt="Breakout Game" src="images/breakout-dark.svg" />
-</picture>
+<div style="display: flex; align-items: stretch; gap: 10px; flex-wrap: wrap;">
+  <!-- Top Languages -->
+  <picture>
+    <!-- Dark mode -->
+    <source
+      srcset="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
+      media="(prefers-color-scheme: dark)"
+    />
+    <!-- Light mode -->
+    <img
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&hide_border=true&count_private=true&include_all_commits=true"
+      alt="Top Languages"
+      height="175"
+    />
+  </picture>
 
-<div>
-  <p>
-    <img
-      align="left"
-      src="https://github-readme-stats-alpha-ten-19.vercel.app/api/top-langs/?username=romeJG&layout=compact&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
-      alt="romejg"
-       height="175"
+  <!-- GitHub Stats -->
+  <picture>
+    <source
+      srcset="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
+      media="(prefers-color-scheme: dark)"
     />
-  </p>
-  <p>
     <img
-      align="right"
-      src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true"
-      alt="romejg"
-       height="175"
+      src="https://github-readme-stats-alpha-ten-19.vercel.app/api?username=romeJG&show_icons=true&hide_border=true&count_private=true&include_all_commits=true"
+      alt="GitHub Stats"
+      height="175"
     />
-  </p>
+  </picture>
+
+  <!-- GitHub Streak -->
+  <picture>
+    <source
+      srcset="https://streak-stats.vercel.app/?user=romejg&theme=merko&hide_border=true"
+      media="(prefers-color-scheme: dark)"
+    />
+    <img
+      src="https://streak-stats.vercel.app/?user=romejg&hide_border=true"
+      alt="GitHub Streak"
+      height="175"
+    />
+  </picture>
 </div>
+
+
+
 <p>
       <img align="center" src="https://github-trophies.vercel.app/?username=romeJG&theme=matrix&no-frame=true&column=8&title=MultiLanguage,LongTimeUser,Commits,Repositories,Followers,Issues,Stars,PullRequest" alt="romejg" />
 </p>
