@@ -3,7 +3,7 @@
 
 <img align="right" alt="Coding" width="400" src="homer.gif">
 
--   🔗 Visit my **[website](https://portfolio-romejg.rf.gd)**
+-   🔗 Visit my **[website](https://romejg.vercel.app/)**
 
 -   🔭 I’m currently working on **Updating my portfolio**
 
