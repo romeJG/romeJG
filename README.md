@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋🏾, I'm Rome</h1>
-<h3 align="center">A Full-Stack Software Engineer.</h3> 
+<h3 align="center">A Full-Stack Software Engineer</h3> 
 
 <img align="right" alt="Coding" width="400" src="homer.gif">
 
