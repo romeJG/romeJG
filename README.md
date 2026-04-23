@@ -71,7 +71,7 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/archlinux/archlinux-original.svg" width="40" alt="Arch Linux"/>
       </a>
       <a href="https://ubuntu.com/">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" width="40" alt="Ubuntu"/>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-original.svg" width="40" alt="Ubuntu"/>
       </a>
       <a href="https://www.gnu.org/software/bash/">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="40" alt="Bash"/>
