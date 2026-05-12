@@ -5,7 +5,7 @@
 
 -   🔗 Visit my **[website](https://romejg.vercel.app/)**
 
--   🔭 I’m currently working on **Updating my portfolio**
+-   🔭 I’m currently working on **Our Start Up**
 
 -   🌱 I’m currently Reading **[Social Engineering](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X)** and Learning about **[AI](https://huggingface.co/)**
 
