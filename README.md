@@ -7,7 +7,7 @@
 
 -   🔭 I’m currently working on **Our Start Up**
 
--   🌱 I’m currently Reading **[Social Engineering](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X)** and Learning about **[AI](https://huggingface.co/)**
+-   🌱 I’m currently Learning **IT Infra** and Learning about **[AI And ](https://huggingface.co/)**
 
 -   💬 Ask me about **[PHP](https://php.org), [Laravel](https://laravel.com/), and [React](https://react.dev)**
 
