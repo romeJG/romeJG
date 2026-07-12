@@ -1,0 +1,44 @@
+name: update profile art
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-heatmap:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch contributions
+        env:
+          GH_PROFILE_USER: romeJG
+        run: python scripts/fetch_contributions.py
+
+      - name: Render heatmap SVG
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push heatmap
+        run: |
+          git add data/contributions.json contrib-heatmap.svg
+          git commit -m "chore: update contribution heatmap" || echo "No changes to commit"
+          git push
