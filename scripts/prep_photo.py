@@ -30,11 +30,11 @@ alpha = np.array(cut.split()[-1])                 # 0 = background
 
 # 2. local-contrast the luminance (CLAHE)
 gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
-clahe = cv2.createCLAHE(clipLimit=2.6, tileGridSize=(8, 8))
+clahe = cv2.createCLAHE(clipLimit=4.2, tileGridSize=(8, 8))
 gray = clahe.apply(gray)
 
 # a touch of global lift so the face sits in the sparse end of the ramp
-gray = cv2.convertScaleAbs(gray, alpha=1.05, beta=18)
+gray = cv2.convertScaleAbs(gray, alpha=1.25, beta=10)
 
 # 3. paste onto white using the alpha mask (feathered a hair to avoid a halo)
 mask = (alpha.astype(np.float32) / 255.0)
