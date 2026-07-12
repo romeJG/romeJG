@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-Scrape real daily contribution counts from GitHub's public, unauthenticated
-contributions endpoint (the same fragment the profile page itself uses) and
+Scrape real ALL-TIME daily contribution counts from GitHub's public,
+unauthenticated contributions endpoint (the same fragment the profile page
+itself uses), one calendar year at a time via its from/to query params, and
 write data/contributions.json with the raw days plus derived stats
-(current streak, longest streak, best day, monthly totals).
+(current streak, longest streak, best day, monthly totals) across the user's
+whole account history.
 
 No token, no auth, no GraphQL -- just the public HTML GitHub already serves.
 Run daily by .github/workflows/update-profile-art.yml.
@@ -18,24 +20,41 @@ import requests
 from bs4 import BeautifulSoup
 
 USERNAME = os.environ.get("GH_PROFILE_USER", "YOUR_GITHUB_USERNAME")
-URL = f"https://github.com/users/{USERNAME}/contributions"
+API_URL = f"https://api.github.com/users/{USERNAME}"
+CONTRIB_URL = f"https://github.com/users/{USERNAME}/contributions"
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.json")
+HEADERS = {"User-Agent": "profile-readme-bot/1.0"}
 
 
-def fetch_days():
-    resp = requests.get(URL, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=30)
+def join_year():
+    """First year of account history; falls back to a 5-year window if the
+    unauthenticated API call is rate-limited."""
+    try:
+        resp = requests.get(API_URL, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        return int(resp.json()["created_at"][:4])
+    except Exception as e:
+        print(f"couldn't fetch join year ({e}); defaulting to a 5-year window", file=sys.stderr)
+        return datetime.date.today().year - 5
+
+
+def fetch_year(year):
+    """Days within a single calendar year (extra days GitHub pads onto the
+    surrounding weeks are filtered out so years don't overlap when merged)."""
+    url = f"{CONTRIB_URL}?from={year}-01-01&to={year}-12-31"
+    resp = requests.get(url, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
     cells = soup.select("td.ContributionCalendar-day")
     if not cells:
-        print("no calendar cells found -- github markup may have changed", file=sys.stderr)
-        sys.exit(1)
+        print(f"no calendar cells found for {year} -- github markup may have changed", file=sys.stderr)
+        return []
 
     days = []
     for td in cells:
         date = td.get("data-date")
-        if not date:
+        if not date or not date.startswith(f"{year}-"):
             continue
         td_id = td.get("id")
         tooltip_el = soup.find("tool-tip", attrs={"for": td_id}) if td_id else None
@@ -46,9 +65,23 @@ def fetch_days():
             m = re.match(r"(\d+)", text)
             count = int(m.group(1)) if m else 0
         days.append({"date": date, "count": count})
-
-    days.sort(key=lambda d: d["date"])
     return days
+
+
+def fetch_all_days():
+    today = datetime.date.today().isoformat()
+    start_year = join_year()
+    end_year = datetime.date.today().year
+    merged = {}
+    for year in range(start_year, end_year + 1):
+        for d in fetch_year(year):
+            if d["date"] > today:
+                continue  # GitHub pads the current year's calendar out to Dec 31
+            merged[d["date"]] = d["count"]
+    if not merged:
+        print("no contribution data collected across any year", file=sys.stderr)
+        sys.exit(1)
+    return [{"date": k, "count": v} for k, v in sorted(merged.items())]
 
 
 def compute_current_streak(days):
@@ -113,11 +146,12 @@ def build_data(days):
 
 
 if __name__ == "__main__":
-    days = fetch_days()
+    days = fetch_all_days()
     data = build_data(days)
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w") as f:
         json.dump(data, f, indent=2)
-    print(f"wrote {OUT_PATH}: {data['total_contributions']} contributions, "
+    print(f"wrote {OUT_PATH}: {data['total_contributions']} contributions across "
+          f"{data['range']['start']} -> {data['range']['end']}, "
           f"current streak {data['current_streak']['length']}, "
           f"longest streak {data['longest_streak']['length']}")

@@ -19,22 +19,6 @@
 <!-- animated contribution graph, refreshed daily by update-profile-art.yml -->
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
 
-<!-- breakout game, refreshed daily by blank.yml -->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="images/breakout-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="images/breakout-light.svg"
-  />
-  <img
-    src="images/breakout-light.svg"
-    alt="Breakout Game"
-  />
-</picture>
-
 <!-- GitHub Stats -->
 <picture>
   <source

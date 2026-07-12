@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-Render data/contributions.json (produced by fetch_contributions.py) as a proper
-GitHub-style contribution heatmap SVG: a grid of rounded, colored BOXES in the
-classic 53-week x 7-day calendar, revealed once with a diagonal line-after-line
-slide-down (CSS keyframes, plays on load then freezes -- no looping "glow"), a
-Less->More legend, and a real stats footer.
+Render data/contributions.json (produced by fetch_contributions.py) as an
+ALL-TIME GitHub-style contribution heatmap SVG: one classic 53-week x 7-day
+calendar block PER YEAR, stacked oldest -> newest, each row of boxes revealed
+once with a diagonal line-after-line slide-down (CSS keyframes, plays on load
+then freezes -- no looping "glow"), a Less->More legend, and a real stats
+footer covering the whole account history.
 
 Run by .github/workflows/update-profile-art.yml after fetch_contributions.py.
 """
@@ -23,9 +24,10 @@ CELL = 12
 GAP = 3
 STEP = CELL + GAP
 PAD = 22
-LEFT_LABEL_W = 30
+LEFT_LABEL_W = 34
 TOP_LABEL_H = 20
 TITLEBAR_H = 30
+YEAR_GAP = 12  # vertical space between one year's block and the next
 
 BG = "#0a0e14"
 BG2 = "#0d1420"
@@ -37,8 +39,9 @@ GREEN = "#39d353"
 GOLD = "#f2cc60"
 
 # reveal timing (one-shot)
-COL_T = 0.018   # per-column delay contribution (left -> right sweep)
-ROW_T = 0.045   # per-row delay contribution (top -> bottom cascade)
+COL_T = 0.014   # per-column delay contribution (left -> right sweep)
+ROW_T = 0.035   # per-row delay contribution (top -> bottom cascade)
+BLOCK_T = 0.12  # extra stagger per year block (oldest starts first)
 CELL_DUR = 0.42
 
 
@@ -57,6 +60,7 @@ def level_for(count):
 
 
 def build_grid(days):
+    """53-ish-column x 7-row grid for a single year's worth of days."""
     first = datetime.date.fromisoformat(days[0]["date"])
     lead_pad = (first.weekday() + 1) % 7  # sunday=0
     grid = []
@@ -77,29 +81,22 @@ def build_grid(days):
     return grid
 
 
-def render(data):
-    days = data["days"]
-    grid = build_grid(days)
-    n_cols = len(grid)
-    art_w = n_cols * STEP
-    art_h = 7 * STEP
+def year_blocks(days):
+    by_year = {}
+    for d in days:
+        by_year.setdefault(d["date"][:4], []).append(d)
+    return [(int(y), build_grid(by_year[y])) for y in sorted(by_year)]
 
-    month_labels = []
-    seen_months = set()
-    for ci, column in enumerate(grid):
-        for cell in column:
-            if cell is None:
-                continue
-            date = datetime.date.fromisoformat(cell[0])
-            key = (date.year, date.month)
-            if key not in seen_months and date.day <= 7:
-                seen_months.add(key)
-                month_labels.append((ci, date.strftime("%b")))
-            break
+
+def render(data):
+    blocks = year_blocks(data["days"])
+    max_cols = max(len(grid) for _, grid in blocks)
+    art_w = max_cols * STEP
 
     canvas_w = PAD + LEFT_LABEL_W + art_w + PAD
+    blocks_h = sum(TOP_LABEL_H + 7 * STEP for _, _ in blocks) + YEAR_GAP * (len(blocks) - 1)
     stats_h = 88
-    canvas_h = TITLEBAR_H + TOP_LABEL_H + art_h + stats_h + PAD
+    canvas_h = TITLEBAR_H + blocks_h + stats_h + PAD
 
     css = f"""
 @keyframes cell {{
@@ -125,37 +122,56 @@ def render(data):
     for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
     parts.append(f'<text x="{canvas_w/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-                 f'text-anchor="middle">romeJG@github: ~/contributions --graph</text>')
+                 f'text-anchor="middle">romeJG@github: ~/contributions --graph --all-time</text>')
 
-    grid_top = TITLEBAR_H + TOP_LABEL_H
     grid_left = PAD + LEFT_LABEL_W
+    block_top = TITLEBAR_H
 
-    for ci, label in month_labels:
-        x = grid_left + ci * STEP
-        parts.append(f'<text x="{x}" y="{TITLEBAR_H + 14}" fill="{MUTED}" font-size="10">{label}</text>')
+    for bi, (year, grid) in enumerate(blocks):
+        grid_top = block_top + TOP_LABEL_H
 
-    for wi, wname in [(1, "Mon"), (3, "Wed"), (5, "Fri")]:
-        y = grid_top + wi * STEP + CELL * 0.78
-        parts.append(f'<text x="{PAD}" y="{y:.1f}" fill="{MUTED}" font-size="9">{wname}</text>')
+        seen_months = set()
+        for ci, column in enumerate(grid):
+            for cell in column:
+                if cell is None:
+                    continue
+                date = datetime.date.fromisoformat(cell[0])
+                if date.month not in seen_months and date.day <= 7:
+                    seen_months.add(date.month)
+                    x = grid_left + ci * STEP
+                    parts.append(f'<text x="{x}" y="{block_top + 14}" fill="{MUTED}" font-size="10">'
+                                 f'{date.strftime("%b")}</text>')
+                break
 
-    # the boxes -- each a rounded rect, diagonal slide-down reveal (once, freeze)
-    for ci, column in enumerate(grid):
-        gx = grid_left + ci * STEP
-        for ri, cell in enumerate(column):
-            if cell is None:
-                continue
-            date_s, count, lvl = cell
-            gy = grid_top + ri * STEP
-            delay = ci * COL_T + ri * ROW_T
-            plural = "s" if count != 1 else ""
-            parts.append(
-                f'<rect class="c" x="{gx}" y="{gy}" width="{CELL}" height="{CELL}" rx="2.5" '
-                f'fill="{PALETTE[lvl]}" style="animation-delay:{delay:.3f}s">'
-                f'<title>{date_s}: {count} contribution{plural}</title></rect>'
-            )
+        parts.append(f'<text x="{PAD}" y="{block_top + 14}" fill="{ACCENT}" font-size="11" '
+                     f'font-weight="700">{year}</text>')
 
-    # legend: Less [][][][][] More (bottom-right of the grid)
-    leg_y = grid_top + art_h + 6
+        for wi, wname in [(1, "Mon"), (3, "Wed"), (5, "Fri")]:
+            y = grid_top + wi * STEP + CELL * 0.78
+            parts.append(f'<text x="{PAD + LEFT_LABEL_W - 4}" y="{y:.1f}" fill="{MUTED}" '
+                         f'font-size="9" text-anchor="end">{wname}</text>')
+
+        for ci, column in enumerate(grid):
+            gx = grid_left + ci * STEP
+            for ri, cell in enumerate(column):
+                if cell is None:
+                    continue
+                date_s, count, lvl = cell
+                gy = grid_top + ri * STEP
+                delay = bi * BLOCK_T + ci * COL_T + ri * ROW_T
+                plural = "s" if count != 1 else ""
+                parts.append(
+                    f'<rect class="c" x="{gx}" y="{gy}" width="{CELL}" height="{CELL}" rx="2.5" '
+                    f'fill="{PALETTE[lvl]}" style="animation-delay:{delay:.3f}s">'
+                    f'<title>{date_s}: {count} contribution{plural}</title></rect>'
+                )
+
+        block_top = grid_top + 7 * STEP + YEAR_GAP
+
+    art_bottom = block_top - YEAR_GAP
+
+    # legend: Less [][][][][] More (bottom-right of the last grid)
+    leg_y = art_bottom + 6
     leg_x = canvas_w - PAD - (len(PALETTE) * (CELL - 1) + 70)
     parts.append(f'<text x="{leg_x}" y="{leg_y + CELL*0.8:.1f}" fill="{MUTED}" font-size="10" text-anchor="end">Less</text>')
     lx = leg_x + 8
@@ -177,7 +193,7 @@ def render(data):
     # left column: big highlighted numbers; right column: context in muted
     parts.append(f'<text x="{PAD}" y="{ly}" font-size="13" fill="{GREEN}">'
                  f'<tspan font-weight="700">{total:,}</tspan>'
-                 f'<tspan fill="{MUTED}"> contributions in the last year</tspan></text>')
+                 f'<tspan fill="{MUTED}"> contributions all time</tspan></text>')
     parts.append(f'<text x="{canvas_w - PAD}" y="{ly}" font-size="12" fill="{MUTED}" text-anchor="end">'
                  f'{rng["start"]} &#8594; {rng["end"]}</text>')
     ly += 24

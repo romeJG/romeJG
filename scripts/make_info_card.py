@@ -47,19 +47,20 @@ HOST = "romeJG"   # shown as  romeJG@github  in the header
 
 ROWS = [
     ("host",),
-    ("kv", "Now", "Full-Stack Engineer · building Our Start Up"),
-    ("kv", "Learning", "IT Infra · AI (Hugging Face)"),
-    ("kv", "Ask me", "PHP · Laravel · React"),
+    ("kv", "Now", "Full-Stack Engineer @ MEC Networks"),
+    ("kv", "Co-Founder", "Review Nest -- EdTech SaaS"),
+    ("kv", "Edu", "BS IT, FEU Institute of Technology"),
     ("gap",),
     ("sec", "Stack"),
-    ("kv", "Frontend", "React, JavaScript, Bootstrap, CSS3"),
-    ("kv", "Backend", "PHP, Laravel, CodeIgniter, Node.js"),
-    ("kv", "Data/Infra", "MySQL, Docker, Linux (Arch/Ubuntu), Bash"),
-    ("kv", "Tools", "Git, Postman, Figma, Photoshop"),
+    ("kv", "Backend", "PHP, Laravel, REST APIs, MySQL"),
+    ("kv", "Frontend", "React, JavaScript, Tailwind, Bootstrap"),
+    ("kv", "DevOps", "Linux, Nginx, Docker, PM2, Cloudflare"),
+    ("kv", "Concepts", "RBAC, JWT, SaaS Architecture, Payments"),
     ("gap",),
     ("sec", "Highlights"),
-    ("bul", "I try to learn a thing or two everyday"),
-    ("bul", "Portfolio: romejg.vercel.app"),
+    ("bul", "Automated SOW workflows: days -> <5 hrs approval"),
+    ("bul", "Co-founded Review Nest -- ~₱150K rev in 30 days"),
+    ("bul", "Own prod systems serving 300+ users, 8+ platforms"),
 ]
 
 
