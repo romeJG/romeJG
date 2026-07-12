@@ -2,7 +2,7 @@ name: update profile art
 
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "0 16 * * *"  # 00:00 Asia/Manila (UTC+8) -- cron is always UTC
   workflow_dispatch:
 
 jobs:
